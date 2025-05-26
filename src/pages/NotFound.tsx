@@ -15,9 +15,7 @@ const NotFound = () => {
         <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
         
         {/* هنا التعديل */}
-        <Link to="#homegit add .
-git commit -m "Fix: use Link in NotFound page to navigate to home"
-git push origin main" className="text-blue-500 hover:text-blue-700 underline">
+        <Link to="/" className="text-blue-500 hover:text-blue-700 underline">
           Return to Home
         </Link>
       </div>
